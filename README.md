@@ -5,5 +5,5 @@ Customized symbols, footprints and 3D models for my personal KiCad projects. Com
 ## 3D models
 
 - BatteryHolder_ELM_1xCR123A
-  ![3D rendering](/renderings/BatteryHolder_ELM_1xCR123A.png?raw=true "BatteryHolder_ELM_1xCR123A")
+  ![3D rendering](/espena/renderings/BatteryHolder_ELM_1xCR123A.png?raw=true "BatteryHolder_ELM_1xCR123A")
 
