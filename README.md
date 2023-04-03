@@ -1,6 +1,6 @@
 # kicad-libs
 
-Customized symbols, footprints and 3D models for my personal KiCad projects. Completely open and free for anyone to use - at own risk.
+Customized symbols, footprints and 3D models for my personal KiCad projects. Completely open and free for anyone to use - at own risk. This project is released under [GNU General Public License v3.0](/LICENSE).
 
 ## My 3D STEP models
 
