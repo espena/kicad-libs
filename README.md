@@ -8,6 +8,8 @@ The models are made in [FreeCAD](https://www.freecad.org/) and exported as KiCad
 
 ### BatteryHolder_ELM_1xCR123A
 
+Battery holder for 1x CR123A 3V lithimum battery. Footprint at [BatteryHolder_ELM_1xCR123A.kicad_mod](/espena/footprints/Battery_espena.pretty/BatteryHolder_ELM_1xCR123A.kicad_mod)
+
 ![3D rendering](/espena/renderings/BatteryHolder_ELM_1xCR123A.png?raw=true "BatteryHolder_ELM_1xCR123A")
 
 
