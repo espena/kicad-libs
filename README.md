@@ -16,5 +16,5 @@ Battery holder for 1x CR123A 3V lithium battery. Matching footprint: [BatteryHol
 
 Infrared receiver module, VS1838B commonly found on ebay. Matching footprint: [Unbranded_VS1838B.kicad_mod](/espena/footprints/OptoDevice_espena.pretty/Unbranded_VS1838B.kicad_mod)
 
-![3D rendering](/espena/renderings/Unbranded_VS1838B.kicad_mod?raw=true "Unbranded_VS1838B")
+![3D rendering](/espena/renderings/Unbranded_VS1838B.png?raw=true "Unbranded_VS1838B")
 
