@@ -53,7 +53,7 @@
   (pad "1" smd rect (at 4.55 -2.25) (size 2.1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5a8c352c-f9ae-4204-93db-1a973fbfc6b7))
   (pad "2" smd rect (at -4.55 2.25) (size 2.1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 432a5bba-e646-4ca5-a902-ad22b66bc3ad))
   (pad "2" smd rect (at 4.55 2.25) (size 2.1 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0f65aed7-4e40-43d1-86f5-81eda42200c9))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+  (model ":KICAD7_3RD_PARTY:3dmodels/Button_Switch_SMD_espena.3dshapes/SW_SPST_TL3301_6x6mm_H4.3mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

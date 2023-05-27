@@ -18,10 +18,15 @@ Infrared receiver module, VS1838B commonly found on ebay. Matching footprint: [U
 
 ![3D rendering](/espena/renderings/Unbranded_VS1838B.png?raw=true "Unbranded_VS1838B")
 
-
 ### Relay_DPDT_Tianbo_HJR-1-2C
 
 DPDT relay, 5V or 12V coil, Tianbo HJR 1-2C. Matching footprint: [Relay_Tianbo_HJR-1-2C.kicad_mod](/espena/footprints/Relay_THT_espena.pretty/Relay_Tianbo_HJR-1-2C.kicad_mod)
 
 ![3D rendering](/espena/renderings/Relay_DPDT_Tianbo_HJR-1-2C.png?raw=true "Relay_Tianbo_HJR-1-2C")
+
+### SW_SPST_TL3301_6x6mm_H4.3mm
+
+Tactile pushbutton switch, 6x6mm, 4.3mm height. Matching footprint: [SW_SPST_TL3301_6x6mm_H4.3mm.kicad_mod](/espena/footprints/Button_Switch_SMD_espena.pretty/SW_SPST_TL3301_6x6mm_H4.3mm.kicad_mod)
+
+![3D rendering](/espena/renderings/SW_SPST_TL3301_6x6mm_H4.3mm.png?raw=true "SW_SPST_TL3301_6x6mm_H4.3mm")
 
