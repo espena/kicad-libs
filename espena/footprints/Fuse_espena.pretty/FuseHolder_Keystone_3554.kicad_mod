@@ -27,4 +27,14 @@
     (stroke (width 0.05) (type default)) (layer "F.CrtYd") (tstamp b8f995fe-743a-4b10-9474-9a8aae02679f))
   (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp afe32e6f-4de3-4c7e-9d5b-bfff3184eb71))
   (pad "2" thru_hole circle (at 5.08 0) (size 1.5 1.5) (drill 0.6) (layers "*.Cu" "*.Mask") (tstamp ca1a6fb1-58e8-49c0-8733-8588eef7e361))
+  (model ":KICAD7_3RD_PARTY:3dmodels/Fuse_espena.3dshapes/Fuse_MXT250_With_Socket.step" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ":KICAD7_3RD_PARTY:3dmodels/Fuse_espena.3dshapes/Fuse_MXT250.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
