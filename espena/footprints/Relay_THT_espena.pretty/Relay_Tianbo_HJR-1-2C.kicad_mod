@@ -41,4 +41,9 @@
   (pad "11" thru_hole circle (at 12.7 -7.62) (size 1.905 1.905) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 91f9023a-be2f-495a-be40-0280e27ce229))
   (pad "13" thru_hole circle (at 7.62 -7.62) (size 1.905 1.905) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 08b7721d-a69e-42f8-b898-b017dfba3057))
   (pad "16" thru_hole circle (at 0 -7.62) (size 1.905 1.905) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 20ca5424-818f-4e20-a281-3335492de4f9))
+  (model ":KICAD7_3RD_PARTY:3dmodels/Relay_THT_espena.3dshapes/Relay_DPDT_Tianbo_HJR-1-2C.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
