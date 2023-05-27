@@ -30,3 +30,9 @@ Tactile pushbutton switch, 6x6mm, 4.3mm height. Matching footprint: [SW_SPST_TL3
 
 ![3D rendering](/espena/renderings/SW_SPST_TL3301_6x6mm_H4.3mm.png?raw=true "SW_SPST_TL3301_6x6mm_H4.3mm")
 
+### Fuse_MXT250
+
+Microfuse MXT250 with or without socket. Matching footprint: [FuseHolder_Keystone_3554.kicad_mod](/espena/footprints/Fuse_espena.pretty/FuseHolder_Keystone_3554.kicad_mod)
+
+![3D rendering](/espena/renderings/Fuse_MXT250.png?raw=true "Fuse_MXT250")
+
