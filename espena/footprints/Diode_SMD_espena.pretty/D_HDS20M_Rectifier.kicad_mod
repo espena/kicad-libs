@@ -19,4 +19,9 @@
   (pad "2" smd rect (at -2.794 1.27) (size 1.7 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b2c21a83-8e19-43ac-a370-8e9bf945cc19))
   (pad "3" smd rect (at 2.794 1.27) (size 1.7 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 71f335a2-7781-4bde-8be9-fe4d42a356b6))
   (pad "4" smd rect (at 2.794 -1.27) (size 1.7 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d574dc7-855a-449a-8163-85ddad1293c0))
+  (model ":KICAD_ROOT:libraries/snapeda/3dmodels/Diode_SMD_espena/HDS20M-13.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
