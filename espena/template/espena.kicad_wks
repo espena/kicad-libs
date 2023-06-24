@@ -140,4 +140,6 @@
     (data "60 82 ")
     )
   )
+  (line (name "") (start 42.489 18.5022) (end 42.489 12.5022))
+  (tbtext "PCB: ${PCB_SERIAL}" (name "") (pos 41.489 14.2522))
 )
