@@ -36,3 +36,9 @@ Microfuse MXT250 with or without socket. Matching footprint: [FuseHolder_Keyston
 
 ![3D rendering](/espena/renderings/Fuse_MXT250.png?raw=true "Fuse_MXT250")
 
+### Pin header with spacing
+
+Four-way pin header with pin 2 removed. Matching footprint: [PinHeader_1x04_P1.27mm_Vertical_without_pin2.kicad_mod](/espena/footprints/Connector_PinHeader_1.27mm_espena.pretty/PinHeader_1x04_P1.27mm_Vertical_without_pin2.kicad_mod)
+
+![3D rendering](/espena/renderings/PinHeader_1x04_P1.27mm_Vertical_without_pin2.png?raw=true "Four-way pin header with pin 2 removed")
+
