@@ -1,4 +1,4 @@
-(footprint "SOT-223-3_TabPin2_ThermalPads" (version 20221018) (generator pcbnew)
+(footprint "SOT-223-3_TabPin2_ThermalPads_Heatsink" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "module CMS SOT223 4 pins")
   (tags "CMS SOT")
@@ -121,9 +121,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KICAD_ROOT}/libraries/espena/3dmodels/Heatsink_espena.3dshapes/Heatsink_6.5x6.5x3.5mm.step" hide
-    (offset (xyz -3.25 3.25 1.7))
+  (model "${KICAD_ROOT}/libraries/espena/3dmodels/Heatsink_espena.3dshapes/Heatsink_6.5x6.5x3.5mm.step"
+    (offset (xyz 3.2 3.25 1.7))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
