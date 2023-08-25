@@ -42,3 +42,9 @@ Four-way pin header with pin 2 removed. Matching footprint: [PinHeader_1x04_P1.2
 
 ![3D rendering](/espena/renderings/PinHeader_1x04_P1.27mm_Vertical_without_pin2.png?raw=true "Four-way pin header with pin 2 removed")
 
+### Heatsink_6.5x6.5x3.5mm
+
+Small aluminum Heatsink for SMD components (SOT-223). 6.5x6.5x3.5mm. 
+
+![3D rendering](/espena/renderings/Heatsink_6.5x6.5x3.5mm.png?raw=true "6.5x6.5x3.5mm heatsink")
+
