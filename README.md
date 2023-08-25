@@ -6,6 +6,8 @@ Customized symbols, footprints and 3D models for my personal KiCad projects. Com
 
 The models are made in [FreeCAD](https://www.freecad.org/) and exported as KiCad-importable STEP  or WRL files. These are located in the [/espena/3dmodels](/espena/3dmodels) directory.
 
+The models can also be downloaded from my profile on [GrabCAD](https://grabcad.com/espen.andersen-1).
+
 ### BatteryHolder_ELM_1xCR123A
 
 Battery holder for 1x CR123A 3V lithium battery. Matching footprint: [BatteryHolder_ELM_1xCR123A.kicad_mod](/espena/footprints/Battery_espena.pretty/BatteryHolder_ELM_1xCR123A.kicad_mod)
