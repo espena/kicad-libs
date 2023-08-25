@@ -46,5 +46,5 @@ Four-way pin header with pin 2 removed. Matching footprint: [PinHeader_1x04_P1.2
 
 Small aluminum Heatsink for SMD components (SOT-223). 6.5x6.5x3.5mm. 
 
-![3D rendering](/espena/renderings/Heatsink_6.5x6.5x3.5mm.png?raw=true "6.5x6.5x3.5mm heatsink")
+![3D rendering](/espena/renderings/Heatsink_3.5mmx3.5mmx2.5mm.png.png?raw=true "6.5x6.5x3.5mm heatsink")
 
