@@ -2,4 +2,4 @@
 
 Not included in public repo.
 
-VEML7700-TR.stp may be download from [Mouser](https://no.mouser.com/electronic-cad-symbols-models/)
+Mouser/SamacSys models may be download from [Mouser](https://no.mouser.com/electronic-cad-symbols-models/)
