@@ -1,27 +1,128 @@
-(footprint "L_Pulse_LCI-44" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -8.89 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 6d96de69-06cc-484f-bf57-d7c164279101)
-  )
-  (fp_text value "L_Pulse_LCI-44" (at 0 -1.27 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b804ee69-becc-4ddf-a4f8-fd0797a22772)
-  )
-  (fp_text user "${REFERENCE}" (at 0 1.27 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ce652062-5c6a-44a8-91b5-d0c7e49af3c9)
-  )
-  (fp_line (start -7.88 -7.62) (end 7.88 -7.62)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp b6a7bca0-f505-4345-92cc-c93b1cc6b992))
-  (fp_line (start -7.88 7.62) (end 7.88 7.62)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 9df14c30-ea91-4372-ab65-26dc7b732086))
-  (pad "1" smd rect (at -6.47 0 180) (size 4 14) (drill oval (offset 1 0)) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7d3f7909-52a9-44ff-98a9-ee1a7b037923))
-  (pad "2" smd rect (at 6.47 0 180) (size 4 14) (drill oval (offset -1 0)) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dc604ee7-aec4-4807-8b95-676278a4d697))
-  (model ":KICAD7_3RD_PARTY:3dmodels/Inductor_espena.3dshapes/PE5393NSL_inductor.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "L_Pulse_LCI-44"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.89 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6d96de69-06cc-484f-bf57-d7c164279101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_Pulse_LCI-44"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b804ee69-becc-4ddf-a4f8-fd0797a22772")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ca98a2a-5e9f-480f-aa1f-305fe55a5e3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3545bd9f-45b7-488d-9316-e0bcf3f0b377")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8d97a92-6174-4da5-a8bf-e4989a5a4443")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.88 -7.62)
+		(end 7.88 -7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6a7bca0-f505-4345-92cc-c93b1cc6b992")
+	)
+	(fp_line
+		(start -7.88 7.62)
+		(end 7.88 7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9df14c30-ea91-4372-ab65-26dc7b732086")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce652062-5c6a-44a8-91b5-d0c7e49af3c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.47 0 180)
+		(size 4 14)
+		(drill oval
+			(offset 1 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7d3f7909-52a9-44ff-98a9-ee1a7b037923")
+	)
+	(pad "2" smd rect
+		(at 6.47 0 180)
+		(size 4 14)
+		(drill oval
+			(offset -1 0)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc604ee7-aec4-4807-8b95-676278a4d697")
+	)
+	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/Inductor_espena.3dshapes/PE5393NSL_inductor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

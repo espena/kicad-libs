@@ -1,4 +1,4 @@
-(footprint "BarrelJack_DC044_Horizontal"
+(footprint "BarrelJack_DC044_Horizontal_Cutout"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "BarrelJack_DC044_Horizontal"
+	(property "Value" "BarrelJack_DC044_Horizontal_Cutout"
 		(at 5.91 2.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -27,16 +27,15 @@
 			)
 		)
 	)
-	(property "Footprint" "BarrelJack_DC044_Horizontal"
+	(property "Footprint" "BarrelJack_DC044_Horizontal_Cutout"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "48168019-f288-4fc1-8265-4497990f8208")
+		(uuid "b5c14136-627f-458f-81f4-384d18ff3fe5")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -45,11 +44,10 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1417a70a-642d-4b60-8ab6-3f0157a65753")
+		(uuid "0b2b5722-afa1-4431-ace4-f728bd3d02b6")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -58,11 +56,10 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9e373281-25b5-4b54-a0af-7a549f91e58e")
+		(uuid "11c81fb9-3b41-4c2d-a3c2-d337bdbebaa0")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -158,8 +155,48 @@
 		(uuid "c86d6981-900e-470b-9a1e-8e8502f510f9")
 	)
 	(fp_line
+		(start 6.61 -4.76)
+		(end 18.61 -4.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e99127e3-9fb3-4ae5-9a20-331ef0b5567a")
+	)
+	(fp_line
+		(start 6.61 4.74)
+		(end 6.61 -4.76)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1fb39c92-6248-4caa-9b88-adde8cb33e9c")
+	)
+	(fp_line
+		(start 18.61 -4.75)
+		(end 18.61 4.74)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d94fbc53-fb91-48d6-87be-8996f911ed7d")
+	)
+	(fp_line
+		(start 18.61 4.74)
+		(end 6.61 4.74)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86fcc0e0-4013-4c78-8193-5c0e173196a2")
+	)
+	(fp_line
 		(start -5.525 -5.3)
-		(end 7.112 -5.3)
+		(end 19 -5.3)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -178,8 +215,8 @@
 		(uuid "c1490a7c-6c32-4440-b686-874e781abc85")
 	)
 	(fp_line
-		(start 7.112 -5.3)
-		(end 7.112 5.3)
+		(start 19 -5.3)
+		(end 19 5.3)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -188,7 +225,7 @@
 		(uuid "d822b32d-22f2-4455-89f7-2fe4dbbb4c5e")
 	)
 	(fp_line
-		(start 7.112 5.3)
+		(start 19 5.3)
 		(end -5.525 5.3)
 		(stroke
 			(width 0.05)
@@ -237,7 +274,7 @@
 		(net 0)
 		(net_name "")
 		(layers "*.Cu")
-		(uuid "d9ba10f0-50fb-4e3e-826f-96ee45118a59")
+		(uuid "c1ad5213-553a-489f-b770-8e5320bf126e")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -257,11 +294,11 @@
 		)
 		(polygon
 			(pts
-				(xy 1.27 -2.286) (xy 1.27 0.127) (xy 3.683 0.127) (xy 3.683 -2.286)
+				(xy 1.27 -2.159) (xy 1.27 0.254) (xy 3.683 0.254) (xy 3.683 -2.159)
 			)
 		)
 	)
-	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/DC044_connector_5.5x2.1mm/DC044_connector_5.5x2.1mm.step"
+	(model ":KICAD7_3RD_PARTY:3dmodels/DC044_connector_5.5x2.1mm/DC044_connector_5.5x2.1mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

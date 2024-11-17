@@ -1,0 +1,5 @@
+**/*.stp
+**/*.step
+**/*.wrl
+**/*.kicad_mod
+**/*.mod

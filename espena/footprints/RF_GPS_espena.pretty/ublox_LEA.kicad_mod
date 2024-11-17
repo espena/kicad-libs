@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -451,7 +454,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "7a6ba7a0-8e74-4c8c-9b7c-f99320c730ba")
 	)
-	(model ":KICAD7_3RD_PARTY:3dmodels/Ublox_GPS.3dshapes/Ublox_LEA_M8T.step"
+	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/Ublox_GPS.3dshapes/Ublox_LEA_M8T.step"
 		(offset
 			(xyz 0 0 0)
 		)
