@@ -3,3 +3,11 @@
 *.bak
 plugins
 resources
+**/*.stp
+**/*.step
+**/*.wrl
+**/*.pretty
+!espena/3dmodels/*.stp
+!espena/3dmodels/*.step
+!espena/3dmodels/*.wrl
+!espena/3dmodels/*.pretty
