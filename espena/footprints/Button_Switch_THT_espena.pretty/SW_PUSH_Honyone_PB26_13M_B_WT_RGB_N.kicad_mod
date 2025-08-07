@@ -109,16 +109,6 @@
 		(uuid "c3d98b3f-2d81-4f5b-8e47-d81fc1e443a6")
 	)
 	(pad "3" thru_hole roundrect
-		(at 2.54 -1.27)
-		(size 2.8575 1.905)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "0d8cc9f6-38a0-44b4-bbee-c7d3d76c2d61")
-	)
-	(pad "3" thru_hole roundrect
 		(at 5.08 5.08)
 		(size 1.905 2.8575)
 		(drill 1.2)
@@ -157,6 +147,16 @@
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "42ff22bd-f69c-44c1-9ea7-a97d137132d1")
+	)
+	(pad "7" thru_hole roundrect
+		(at 2.54 -1.27)
+		(size 2.8575 1.905)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "0d8cc9f6-38a0-44b4-bbee-c7d3d76c2d61")
 	)
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/Button_Switch_THT.espena.3dshapes/SW_PUSH_Honyone_PB26_13M_B_WT_RGB_N.step"
