@@ -1,0 +1,500 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "PIC24F04KA201"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -8.382 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PIC24F04KA201"
+			(at -0.254 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PIC24F04KA201_1_1"
+			(rectangle
+				(start -9.525 39.37)
+				(end 9.525 -39.37)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 34.29 0)
+				(length 3.175)
+				(name "RB12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN12" input line)
+				(alternate "CN14" input line)
+				(alternate "CTED2" input line)
+				(alternate "HLVDIN" input line)
+				(alternate "SCK1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -12.7 29.21 0)
+				(length 3.175)
+				(name "RB13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN11" input line)
+				(alternate "CN13" input line)
+				(alternate "CTPLS" output line)
+				(alternate "SDO1" output line)
+			)
+			(pin bidirectional line
+				(at -12.7 19.05 0)
+				(length 3.175)
+				(name "RB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CN1" input line)
+				(alternate "PGD3" bidirectional line)
+				(alternate "SOSCI" input line)
+			)
+			(pin bidirectional line
+				(at -12.7 1.27 0)
+				(length 3.175)
+				(name "RB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CN6" input line)
+				(alternate "U1RX" input line)
+			)
+			(pin bidirectional line
+				(at -12.7 -16.51 0)
+				(length 3.175)
+				(name "RB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN3" input line)
+				(alternate "C2INB" input line)
+				(alternate "CN4" input line)
+			)
+			(pin bidirectional line
+				(at -12.7 -34.29 0)
+				(length 3.175)
+				(name "RB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN2" input line)
+				(alternate "C2INB" input line)
+				(alternate "CN4" input line)
+			)
+			(pin power_in line
+				(at 0 43.18 270)
+				(length 3.81)
+				(name "V_{DD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -43.18 90)
+				(length 3.81)
+				(name "V_{SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 3.81 13.97 180)
+				(length 3.175)
+				(name "RA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN5" input line)
+				(alternate "C1INA" input line)
+				(alternate "CLKO" output line)
+				(alternate "CN29" input line)
+				(alternate "OSCO" output line)
+			)
+			(pin bidirectional line
+				(at 3.81 11.43 180)
+				(length 3.175)
+				(name "RB14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN10" input line)
+				(alternate "C1OUT" output line)
+				(alternate "CN12" input line)
+				(alternate "CV_{REF}" input line)
+				(alternate "INT1" input line)
+				(alternate "OCFA" input line)
+				(alternate "SDI1" input line)
+			)
+			(pin bidirectional line
+				(at 3.81 8.89 180)
+				(length 3.175)
+				(name "RB15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CN11" input line)
+				(alternate "REFO" output line)
+				(alternate "T2CK" input line)
+				(alternate "T3CK" input line)
+				(alternate "_{SS1}" bidirectional line)
+			)
+			(pin input line
+				(at 12.7 34.29 180)
+				(length 3.175)
+				(name "~{MCLR}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "MCLR" input line)
+				(alternate "RA5" bidirectional line)
+				(alternate "V_{PP}" passive line)
+			)
+			(pin bidirectional line
+				(at 12.7 26.67 180)
+				(length 3.175)
+				(name "RA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN1" input line)
+				(alternate "CN3" input line)
+				(alternate "PGD2" bidirectional line)
+				(alternate "V_{REF-}" input line)
+			)
+			(pin bidirectional line
+				(at 12.7 24.13 180)
+				(length 3.175)
+				(name "RA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN0" input line)
+				(alternate "CN2" input line)
+				(alternate "PGC2" bidirectional line)
+				(alternate "V_{REF+}" input line)
+			)
+			(pin input line
+				(at 12.7 0 180)
+				(length 3.175)
+				(name "RA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AN4" input line)
+				(alternate "C1INB" input line)
+				(alternate "CLKI" input line)
+				(alternate "CN30" input line)
+				(alternate "OSCI" input line)
+			)
+			(pin bidirectional line
+				(at 12.7 -17.78 180)
+				(length 3.175)
+				(name "RB8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CN22" input line)
+				(alternate "SCL1" bidirectional line)
+				(alternate "U1CTS" input line)
+			)
+			(pin bidirectional line
+				(at 12.7 -20.32 180)
+				(length 3.175)
+				(name "RB9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CN21" input line)
+				(alternate "SDA1" bidirectional line)
+				(alternate "U1BCLK" output line)
+				(alternate "U1RTS" output line)
+			)
+			(pin bidirectional line
+				(at 12.7 -22.86 180)
+				(length 3.175)
+				(name "RA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CN0" input line)
+				(alternate "PGC3" input line)
+				(alternate "SOSCO" output line)
+				(alternate "T1CK" input line)
+			)
+			(pin bidirectional line
+				(at 12.7 -25.4 180)
+				(length 3.175)
+				(name "RA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "C2OUT" output line)
+				(alternate "CN8" input line)
+				(alternate "CTED1" input line)
+				(alternate "IC1" input line)
+				(alternate "INT2" input line)
+				(alternate "OC1" output line)
+			)
+			(pin bidirectional line
+				(at 12.7 -27.94 180)
+				(length 3.175)
+				(name "RB7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CN23" input line)
+				(alternate "INT0" output line)
+				(alternate "U1TX" output line)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
