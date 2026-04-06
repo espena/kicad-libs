@@ -1,0 +1,194 @@
+(footprint "LED_SSF_LXH100LID01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Board edge indicator, SSF-LXH100LID-01, low current.")
+	(tags "LED, indicator, angled")
+	(property "Reference" "REF**"
+		(at -3.556 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44f4a828-f300-417f-b383-caf358606083")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LED_SSF_LXH100LID01"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce1a43f1-7f0c-48f7-8daf-372d9b7903f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4bb215a-eb78-44f6-b2dc-424c00cb9a84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Board edge indicator"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff679814-6bf6-4df0-99fe-23ff0b2bb4fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.588 -3.048)
+		(end 3.81 -3.048)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2dff9a65-9cae-4896-bf34-a37931953953")
+	)
+	(fp_line
+		(start -5.588 3.048)
+		(end -5.588 -3.048)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "edd9940d-7113-49f3-acf4-693e6991d81c")
+	)
+	(fp_line
+		(start 3.81 -3.048)
+		(end 3.81 3.048)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6a272ab-8888-44d4-a035-1282147ff264")
+	)
+	(fp_line
+		(start 3.81 3.048)
+		(end -5.588 3.048)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d0879a2e-126d-4f37-a172-de8f45e9c45b")
+	)
+	(fp_rect
+		(start -5.842 -3.302)
+		(end 4.064 3.302)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3dbc5925-2a2c-40e1-8bdf-2b47cdc513c1")
+	)
+	(fp_line
+		(start -5.842 2.794)
+		(end -7.112 2.794)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8e1e84d1-112e-42c0-ae1e-43b52b1bd211")
+	)
+	(fp_line
+		(start -5.588 -2.794)
+		(end -7.112 -2.794)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fb1d2ffe-2c80-487a-b2f4-92c4a8f87699")
+	)
+	(fp_rect
+		(start -5.588 -3.048)
+		(end 3.81 3.048)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "be4f8871-78ea-4540-be8a-f42efeda6e3a")
+	)
+	(fp_arc
+		(start -7.112 2.794)
+		(mid -9.906 0)
+		(end -7.112 -2.794)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f3d77842-3486-4efa-87ce-6944fedef718")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d38a7e0e-bd7a-47a6-80db-8cf1c6618322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 1.27)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(uuid "61b07fcc-0d70-43d6-a508-057dd57ecbd4")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -1.27)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(uuid "4ff36f2c-75f0-4332-b7ee-a46e078af6f9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/LED_THT_espena.3dshapes/LED_EdgeIndicator_Rectangular_W6.0mm_H6.0mm_P2.54mm_SSF-LXH100LID-01.step"
+		(offset
+			(xyz -0.9 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
