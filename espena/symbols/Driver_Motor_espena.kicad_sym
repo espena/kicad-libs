@@ -65,7 +65,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 19.05 0)
+				(at -19.05 21.59 0)
 				(length 3.81)
 				(name "CP_{P}"
 					(effects
@@ -83,7 +83,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 13.97 0)
+				(at -19.05 16.51 0)
 				(length 3.81)
 				(name "CP_{P}"
 					(effects
@@ -101,7 +101,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 8.89 0)
+				(at -19.05 10.16 0)
 				(length 3.81)
 				(name "SW"
 					(effects
@@ -119,7 +119,7 @@
 				)
 			)
 			(pin passive line
-				(at -19.05 6.35 0)
+				(at -19.05 7.62 0)
 				(length 3.81)
 				(name "V_{REG}"
 					(effects

@@ -12,16 +12,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "M"
-			(at 8.89 0 0)
+		(property "Reference" "J"
+			(at 6.604 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "Motor"
+			(at -7.366 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,6 +92,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 6.35 1.27) (xy 7.62 1.27) (xy 7.62 -1.27) (xy 6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "Motor_Spindle_3phase_1_1"
 			(circle
@@ -116,28 +128,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -7.62 0 0)
 				(length 0)
 				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 7.62 270)
-				(length 0)
-				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,7 +146,25 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
+				(at 0 7.62 270)
+				(length 0)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 -7.62 90)
 				(length 0)
 				(name "C"
@@ -162,7 +174,25 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 0)
+				(name "CT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
