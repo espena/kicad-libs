@@ -1,0 +1,190 @@
+(footprint "SW_SPST_W7.5mm_H6.0mm_L8.0mm_Angled"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.5 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b05bc49f-ed79-49c5-b850-9110837f2f60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_SPST_W7.5mm_H6.0mm_L8.0mm_Angled"
+		(at 0 7.112 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9212e007-9820-4d5a-9eac-e338912d66b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "909f9e15-a318-4f5f-979f-22d62955f256")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea13e878-cf63-4808-955d-3eb2c99f9274")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.75 -3.25)
+		(end -3.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5a3ddd8-9883-47d9-b14a-f8d6b3c50ecf")
+	)
+	(fp_line
+		(start -3.75 0)
+		(end 3.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34efd43c-b10a-4545-8d21-ca3fc02293d8")
+	)
+	(fp_line
+		(start -3.6 -7)
+		(end 3.75 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "075669b3-7378-41bc-ad83-97bbc21aafc6")
+	)
+	(fp_line
+		(start -3.6 -6)
+		(end -3.6 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8da5fdc6-96c0-4653-8a30-7f59cb790bdc")
+	)
+	(fp_line
+		(start 3.75 -7)
+		(end 3.75 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9cdd8d04-ce0b-4200-b67c-aa9edf7d858d")
+	)
+	(fp_line
+		(start 3.75 0)
+		(end 3.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f047700-ba15-41a5-99a6-66da6fa2461f")
+	)
+	(fp_rect
+		(start -4 -7.5)
+		(end 4.35 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fd3d6ef3-bf11-4f7f-93a2-122572734a65")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.612 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fc14b10e-0baa-4483-8893-7a5e40a7241e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole roundrect
+		(at -3.6 -4.65)
+		(size 1.5 2)
+		(drill oval 0.6 1.1)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "6915b437-040f-44cb-b11a-a64fea7f6d64")
+	)
+	(pad "" thru_hole roundrect
+		(at 3.6 -4.65)
+		(size 1.5 2)
+		(drill oval 0.6 1.1)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "cb1970b5-46f6-497c-a600-867654c721be")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.25 -2.15)
+		(size 2 1.2)
+		(drill oval 0.8 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "427e212e-08d2-4dcd-9598-fb68f4ea837f")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.25 -2.15)
+		(size 2 1.2)
+		(drill oval 0.8 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "bd784b8b-6562-481c-8587-0a7f203d63c1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/Button_Switch_THT.espena.3dshapes/PushButton_Tactile_RightAngle_8mmStent_H6.0_W6.0.step"
+		(offset
+			(xyz 0 0 -3.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

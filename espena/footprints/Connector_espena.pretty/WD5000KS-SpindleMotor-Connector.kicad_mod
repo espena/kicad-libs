@@ -1,0 +1,157 @@
+(footprint "WD5000KS-SpindleMotor-Connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.13 -13.47 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6f7f2b7-108c-406c-8835-e3abfe1f35cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WD5000KS-SpindleMotor-Connector"
+		(at 0.13 11.29 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "259c2f3a-bb10-4032-aa15-9dd97f33f45f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2691b752-fdd4-4e61-9277-4982919d4bc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86b17e19-3270-41f9-9956-1099f39210ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.1 -2.5)
+		(end 3.1 2.5)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29ded894-c3ca-437a-9fee-f2bb01048760")
+	)
+	(fp_text user "CT"
+		(at 3.25 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "33be377b-c2cc-41be-aece-ef01c3e4f638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A"
+		(at 3.75 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3879b44c-f6f1-42fb-b78d-dd38045217fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "C"
+		(at -4.5 1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "52689ab9-a745-4f76-9627-9bc8a9d5f765")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B"
+		(at -4.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "96b20d13-2a9e-4ac9-a052-7f2f6ef9bd90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.13 12.79 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8930e614-8a60-4747-859b-29f09ca83a69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.3 -1)
+		(size 1.5 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "128cc731-b51d-43cc-8102-6480d05f6ddb")
+	)
+	(pad "2" smd rect
+		(at -2.3 1.4)
+		(size 1.5 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68fbc50a-081b-4433-b55e-78922f64b3ab")
+	)
+	(pad "3" smd rect
+		(at 2.3 1)
+		(size 1.5 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e796ae1-90d4-4388-8cf6-4809ea588be7")
+	)
+	(pad "4" smd rect
+		(at 2.3 -1.4)
+		(size 1.5 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0a299ac-c63e-4a1e-bc07-b72a7ea87126")
+	)
+	(embedded_fonts no)
+)

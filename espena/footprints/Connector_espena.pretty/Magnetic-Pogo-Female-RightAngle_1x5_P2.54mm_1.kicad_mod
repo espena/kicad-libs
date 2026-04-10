@@ -1,0 +1,172 @@
+(footprint "Magnetic-Pogo-Female-RightAngle_1x5_P2.54mm_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "86016147-1040-48bd-b519-daa4f9c3b115")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Magnetic-Pogo-Female-RightAngle_1x5_P2.54mm_1"
+		(at 0 2.2225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0ecbe395-de6c-4373-b3be-a8269661c3fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dca28e7-ca54-4469-b0f9-1de3236becf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30bab4a8-afd2-4e14-85c6-c95466e83984")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.033 1.397)
+		(end 10.033 1.397)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "375592a6-c73f-437d-885a-f8bb57881288")
+	)
+	(fp_line
+		(start -10.033 5.461)
+		(end -10.033 1.397)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19a4d2b4-d271-4aa0-b7b0-f425b42afdbc")
+	)
+	(fp_line
+		(start 10.033 1.397)
+		(end 10.033 5.461)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "edd94aa9-5a8e-4973-8202-84784cd344a4")
+	)
+	(fp_line
+		(start 10.033 5.461)
+		(end -10.033 5.461)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "abcbb78c-0808-433d-9570-01955c71d61e")
+	)
+	(fp_rect
+		(start -10.541 -1.524)
+		(end 10.541 5.969)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9b89c4ad-f0d9-434e-94cd-ff501ea9e542")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.7225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82f024d3-f052-4f97-a14a-2d843ff93b41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 2 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5da41ea5-1028-4c75-85f5-c3af1960f496")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38f39160-2bc1-460b-a6ef-853c95e7cad9")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c2b3e5a-a38f-43fb-b184-7cad7335ef5c")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "675ddf71-a546-4ef2-ac42-4b8cac5b02ca")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 2 2)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b26cf42e-1d3e-43c9-8cfb-dc6d1664f8a7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_ROOT}/libraries/grabcad/3dmodels/Magnetic_pogo.3dshapes/PogoFemale.step"
+		(offset
+			(xyz -10.2 -2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

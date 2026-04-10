@@ -1,0 +1,187 @@
+(footprint "USB_A_B13.7_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Vertical USB A female connector, through hole mounted.")
+	(property "Reference" "REF**"
+		(at -1.6 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "882d23a1-dad2-4318-8351-5aac98652092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USB_A_B13.7_Vertical"
+		(at 3.5 -1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "812c7329-18c2-4deb-a417-dc7771cf8ddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af82120e-eee7-49a7-80a5-675538c5bad1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Vertical USB A female connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12ca1815-941f-4123-af24-8c6970fa5383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -2.2)
+		(end -3.5 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "160423d4-18a5-4748-b429-967706326f55")
+	)
+	(fp_line
+		(start -3.5 -2.2)
+		(end 10.5 -2.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2ba4f777-6f3e-481c-8c74-7a12939cab6d")
+	)
+	(fp_line
+		(start -1 4.7)
+		(end 8 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1a339b84-b81f-4415-a8da-ec1cc52bb60c")
+	)
+	(fp_line
+		(start 10.5 -2.2)
+		(end 10.5 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "13f555ad-c8b6-4051-90ef-1ebab549886a")
+	)
+	(fp_rect
+		(start -3.07 -1.8)
+		(end 10.07 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bbc6781f-47e8-4e76-903b-5152171a6a63")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.5 1.28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "310e54cb-1d52-4892-9f5b-04086f3d5927")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1667)
+		(uuid "f6626aa8-1377-49fb-a58c-3a5bccbcd8dd")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.5 0)
+		(size 1.5 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1667)
+		(uuid "5ab15db2-bc24-40da-964c-83815492a5ce")
+	)
+	(pad "3" thru_hole roundrect
+		(at 4.5 0)
+		(size 1.5 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1667)
+		(uuid "2f4d38cd-9587-4a9d-a199-712c87e6e9b6")
+	)
+	(pad "4" thru_hole roundrect
+		(at 7 0)
+		(size 1.5 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1667)
+		(uuid "0252bc8b-2be7-44a2-afe5-7ef27bf15e88")
+	)
+	(pad "5" thru_hole roundrect
+		(at -3.07 2.4)
+		(size 3 6)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.04166666667)
+		(uuid "c350ca55-b1ff-4a90-b579-af14ad9f1b5b")
+	)
+	(pad "5" thru_hole roundrect
+		(at 10.07 2.4)
+		(size 3 6)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.04166666667)
+		(uuid "e4b1aec8-bffb-496b-92e3-869b57aa183a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/Connector_USB_espena.3dshapes/USBA_Socket_straight_THT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
