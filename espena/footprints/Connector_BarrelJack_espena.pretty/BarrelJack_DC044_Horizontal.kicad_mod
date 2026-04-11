@@ -1,7 +1,7 @@
 (footprint "BarrelJack_DC044_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6.2 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "BarrelJack_DC044_Horizontal"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "48168019-f288-4fc1-8265-4497990f8208")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -236,7 +223,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "d9ba10f0-50fb-4e3e-826f-96ee45118a59")
 		(hatch edge 0.5)
 		(connect_pads
@@ -251,6 +243,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -261,7 +257,8 @@
 			)
 		)
 	)
-	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/DC044_connector_5.5x2.1mm/DC044_connector_5.5x2.1mm.step"
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/espena/3dmodels/Connector_BarrelJack_espena.3dshapes/DC044_connector_5.5x2.1mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
